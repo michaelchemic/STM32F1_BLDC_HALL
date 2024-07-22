@@ -1,0 +1,133 @@
+TDB60 006:352.810   SEGGER J-Link V7.94 Log File
+TDB60 006:352.910   DLL Compiled: Nov 29 2023 13:35:28
+TDB60 006:352.917   Logging started @ 2024-06-08 23:06
+TDB60 006:352.922   Process: E:\UV4\UV4.exe
+TDB60 006:352.928 - 15.446ms
+TDB60 006:352.935 JLINK_SetWarnOutHandler(...)
+TDB60 006:352.941 - 0.005ms
+TDB60 006:352.947 JLINK_OpenEx(...)
+TDB60 006:357.064   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+TDB60 006:359.063   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+TDB60 006:365.464   Hardware: V8.00
+TDB60 006:365.483   S/N: 88888888
+TDB60 006:365.491   OEM: SEGGER
+TDB60 006:365.498   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+TDB60 006:368.037   Bootloader: (Could not read)
+TDB60 006:370.684   TELNET listener socket opened on port 19021
+TDB60 006:375.194   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+TDB60 006:375.318   WEBSRV Webserver running on local port 19080
+TDB60 006:375.407   Looking for J-Link GUI Server exe at: E:\ARM\Segger\JLinkGUIServer.exe
+TDB60 006:375.434   Looking for J-Link GUI Server exe at: E:\Program Files\SEGGER\JLink_V794\JLinkGUIServer.exe
+TDB60 006:375.448   Forking J-Link GUI Server: E:\Program Files\SEGGER\JLink_V794\JLinkGUIServer.exe
+TDB60 006:382.506   J-Link GUI Server info: "J-Link GUI server V7.94 "
+TDB60 006:382.745 - 29.797ms returns "O.K."
+TDB60 006:382.789 JLINK_GetEmuCaps()
+TDB60 006:382.797 - 0.007ms returns 0xB9FF7BBF
+TDB60 006:382.807 JLINK_TIF_GetAvailable(...)
+TDB60 006:383.039 - 0.231ms
+TDB60 006:383.062 JLINK_SetErrorOutHandler(...)
+TDB60 006:383.069 - 0.006ms
+TDB60 006:383.703 JLINK_ExecCommand("ProjectFile = "C:\Users\24670\Desktop\STM32F1_AGV\USER\JLinkSettings.ini"", ...). 
+TDB60 006:386.666 - 2.962ms returns 0x00
+TDB60 006:386.684 JLINK_ExecCommand("Device = STM32F103RC", ...). 
+TDB60 006:386.961   Device "STM32F103RC" selected.
+TDB60 006:387.354 - 0.661ms returns 0x00
+TDB60 006:387.365 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+TDB60 006:387.374 - 0.001ms returns 0x01
+TDB60 006:387.380 JLINK_GetHardwareVersion()
+TDB60 006:387.386 - 0.005ms returns 80000
+TDB60 006:387.392 JLINK_GetDLLVersion()
+TDB60 006:387.398 - 0.005ms returns 79400
+TDB60 006:387.407 JLINK_GetOEMString(...)
+TDB60 006:387.417 JLINK_GetFirmwareString(...)
+TDB60 006:387.425 - 0.008ms
+TDB60 006:387.437 JLINK_GetDLLVersion()
+TDB60 006:387.486 - 0.048ms returns 79400
+TDB60 006:387.495 JLINK_GetCompileDateTime()
+TDB60 006:387.500 - 0.005ms
+TDB60 006:387.507 JLINK_GetFirmwareString(...)
+TDB60 006:387.513 - 0.005ms
+TDB60 006:387.519 JLINK_GetHardwareVersion()
+TDB60 006:387.524 - 0.005ms returns 80000
+TDB60 006:387.531 JLINK_GetSN()
+TDB60 006:387.536 - 0.005ms returns 88888888
+TDB60 006:387.543 JLINK_GetOEMString(...)
+TDB60 006:387.551 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+TDB60 006:390.693 - 3.141ms returns 0x00
+TDB60 006:390.709 JLINK_HasError()
+TDB60 006:390.719 JLINK_SetSpeed(5000)
+TDB60 006:390.811 - 0.091ms
+TDB60 006:391.521 JLINK_HasError()
+TDB60 006:391.537 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+TDB60 006:391.543 - 0.006ms returns JLINKARM_RESET_TYPE_NORMAL
+TDB60 006:391.550 JLINK_Reset()
+TDB60 006:392.060   InitTarget() start
+TDB60 006:392.096    J-Link Script File: Executing InitTarget()
+TDB60 006:393.049   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:397.044   Error: Failed to initialized DAP.
+TDB60 006:397.065   Can not attach to CPU. Trying connect under reset.
+TDB60 006:447.838   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:452.625   Error: Failed to initialized DAP.
+TDB60 006:452.650   Connecting to CPU via connect under reset failed.
+TDB60 006:503.350   InitTarget() end - Took 111ms
+TDB60 006:504.037   Connect fallback: Reset via Reset pin & Connect.
+TDB60 006:562.053   InitTarget() start
+TDB60 006:562.085    J-Link Script File: Executing InitTarget()
+TDB60 006:562.468   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:566.037   Error: Failed to initialized DAP.
+TDB60 006:566.054   Can not attach to CPU. Trying connect under reset.
+TDB60 006:616.861   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:621.044   Error: Failed to initialized DAP.
+TDB60 006:621.065   Connecting to CPU via connect under reset failed.
+TDB60 006:671.870   InitTarget() end - Took 109ms
+TDB60 006:671.974 - 280.423ms
+TDB60 006:672.018 JLINK_GetId()
+TDB60 006:672.629   InitTarget() start
+TDB60 006:672.645    J-Link Script File: Executing InitTarget()
+TDB60 006:673.044   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:677.039   Error: Failed to initialized DAP.
+TDB60 006:677.056   Can not attach to CPU. Trying connect under reset.
+TDB60 006:727.939   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:732.043   Error: Failed to initialized DAP.
+TDB60 006:732.063   Connecting to CPU via connect under reset failed.
+TDB60 006:782.948   InitTarget() end - Took 110ms
+TDB60 006:782.977   Connect fallback: Reset via Reset pin & Connect.
+TDB60 006:843.632   InitTarget() start
+TDB60 006:843.654    J-Link Script File: Executing InitTarget()
+TDB60 006:844.047   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:848.614   Error: Failed to initialized DAP.
+TDB60 006:848.634   Can not attach to CPU. Trying connect under reset.
+TDB60 006:899.987   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:904.036   Error: Failed to initialized DAP.
+TDB60 006:904.058   Connecting to CPU via connect under reset failed.
+TDB60 006:955.058   InitTarget() end - Took 111ms
+TDB60 006:955.080 - 283.061ms returns 0x00000000
+TDB60 006:955.098 JLINK_GetId()
+TDB60 006:956.043   InitTarget() start
+TDB60 006:956.056    J-Link Script File: Executing InitTarget()
+TDB60 006:956.619   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 006:960.619   Error: Failed to initialized DAP.
+TDB60 006:960.639   Can not attach to CPU. Trying connect under reset.
+TDB60 007:011.601   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 007:015.044   Error: Failed to initialized DAP.
+TDB60 007:015.064   Connecting to CPU via connect under reset failed.
+TDB60 007:065.585   InitTarget() end - Took 109ms
+TDB60 007:065.618   Connect fallback: Reset via Reset pin & Connect.
+TDB60 007:121.649   InitTarget() start
+TDB60 007:121.672    J-Link Script File: Executing InitTarget()
+TDB60 007:122.039   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 007:125.641   Error: Failed to initialized DAP.
+TDB60 007:125.658   Can not attach to CPU. Trying connect under reset.
+TDB60 007:176.092   SWD selected. Executing JTAG -> SWD switching sequence.
+TDB60 007:180.047   Error: Failed to initialized DAP.
+TDB60 007:180.069   Connecting to CPU via connect under reset failed.
+TDB60 007:230.763   InitTarget() end - Took 109ms
+TDB60 007:230.789 - 275.690ms returns 0x00000000
+TDB60 007:233.400 JLINK_GetFirmwareString(...)
+TDB60 007:233.416 - 0.015ms
+T7A94 060:769.975   
+  ***** Error: Connection to emulator lost!
+TDB60 100:625.718 JLINK_Close()
+TDB60 100:638.231 - 12.512ms
+TDB60 100:638.259   
+TDB60 100:638.264   Closed

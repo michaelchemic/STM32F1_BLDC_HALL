@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "motor_ctl.h": "c",
+            "led.h": "c",
+            "sys.h": "c",
+            "delay.h": "c",
+            "can.h": "c",
+            "stm32f10x.h": "c",
+            "hall.h": "c"
+        }
+    },
+    "extensions": {}
+}
